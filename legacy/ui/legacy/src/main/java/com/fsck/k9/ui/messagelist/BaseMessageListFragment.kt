@@ -873,7 +873,7 @@ abstract class BaseMessageListFragment :
             showAccountIndicator = isShowAccountIndicator,
             density = messageListSettings.uiDensity,
             messageListDateTimeFormat =
-                generalSettingsManager.getConfig().display.coreSettings.messageListDateTimeFormat,
+            generalSettingsManager.getConfig().display.coreSettings.messageListDateTimeFormat,
         )
 
     private fun getFolderInfoHolder(account: LegacyAccount, folderId: Long): FolderInfoHolder {

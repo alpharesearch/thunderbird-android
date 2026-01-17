@@ -67,4 +67,5 @@ enum class SplitViewMode {
 enum class MessageListDateTimeFormat {
     AUTO,
     FULL,
+    ISO,
 }
